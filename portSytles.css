@@ -327,8 +327,8 @@ ul {
 }
 
 .section-3-img img {
-    width: 300px;
-    height: 286px;
+    width: 250px;
+    height: 236px;
 }
 
 .section-3-img {
@@ -354,8 +354,9 @@ ul {
 }
 
 .section-3-3 {
-    margin: auto;
-    width: 945px;
+    padding: auto;
+    margin: 0 auto;
+    width: 80%;
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 10px;
@@ -743,7 +744,7 @@ button[type="submit"]:hover {
     margin: 200px 0 0 0;
 } 
 
-@media screen and (max-width: 40rem)  {
+@media screen and (max-width: 375px) {
     body {
         padding: auto;
     }
@@ -752,35 +753,35 @@ button[type="submit"]:hover {
         margin: auto;
     }
     .section-1 {
-        position: relative;
-        max-width: 100%;
+        max-width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 11rem;
-        margin: 6.5rem;
     }
     .section-1-name {
         line-height: 55px;
         letter-spacing: -1px;
     }
     .img {
-        position: absolute;
-        top: 270px;
-        opacity: 0.3;
-        padding: auto;
-    }
+        margin: 0 auto;
+        margin: auto !important;
+        padding: auto !important;
+    } 
     .img > img {
-        width: 260px;
-        height: 250px;
+        /* opacity: 0.3; */
+        width: 290px !important;
+        height: 285px !important;
+        margin-left: -108px !important;
+        padding: auto !important;
     }
     .profile-card {
-        margin: 0;
-        max-width: 302px;
+        margin-left: -330px;
+        max-width: 300px;
         position: relative;
-        top: 150px;
-        left: 35px;
+        top: 0;
+        left: 0;
     }
     .section-2 {
         position: relative;
@@ -864,12 +865,10 @@ button[type="submit"]:hover {
     }
     .section-3-3 {
         margin: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 25px;
+        padding: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        row-gap: 35px;
     }
     .section-3-img img{
         width: 220px;
@@ -940,83 +939,80 @@ button[type="submit"]:hover {
         padding-top: 50px;
     }
     .pink {
-        width: 185px;
-        height: 80px;
+        width: 185px !important;
+        height: 80px !important;
     }
     .arrow-div {
-        width: 135px;
-        height: 30px;
-        top: -40px;
-        left: 0;
+        width: 135px !important;
+        height: 30px !important;
+        top: -40px !important;
+        left: 0 !important;
     }
     .arrow-div-left {
-        height: 30px;
+        height: 30px !important;
     }
     .arrow-div-right {
-        height: 30px;
+        height: 30px !important;
     }
     .section-6-card {
-        width: 240px;
-        height: 95px;
-        display: grid;
-        grid-template-columns: auto 200px auto;
-        grid-template-rows: 25px 17px 17px;
-        gap: 7px;
-        position: relative;
-        top: -90px;
-        left: 95px;
+        width: 240px !important;
+        height: 95px !important;
+        display: grid !important;
+        grid-template-columns: auto 200px auto !important;
+        grid-template-rows: 25px 17px 17px !important;
+        gap: 7px !important;
+        position: relative !important;
+        top: -90px !important;
+        left: 95px !important;
     }
     .quoteR {
-        position: relative;
-        left: -35px;
-        font-size: 5px;
+        position: relative !important;
+        left: -35px !important;
+        font-size: 5px !important;
     }
     .quoteL img, .quoteR img {
-        width: 7px;
-        height: 7px;
+        width: 7px !important;
+        height: 7px !important;
     }
     .sec-profile-pic {
-        position: relative;
-        top: -30px;
-        left: 0;
+        position: relative !important;
+        top: -30px !important;
+        left: 0 !important;
     }
     .sec-profile-pic img {
-        width: 35px;
-        height: 35px;
+        width: 35px !important;
+        height: 35px !important;
     }
     .section-6-text {
-        font-size: 5px;
+        font-size: 5px !important;
     }
     .kar {
-        font-size: 6px;
-    }
-    .founder {
-        font-size: 5px;
+        font-size: 6px !important
     }
     .check-img {
         position: relative;
-        top: -210px;
-        left: 280px;
-        z-index: -1;
-        width: 55px;
-        height: 50px;
+        top: -210px !important;
+        left: 280px !important;
+        z-index: -1 !important;
+        width: 55px !important;
+        height: 50px !important;
     }
     .check-img img {
-        width: 55px;
-        height: 50px;
+        width: 55px !important;
+        height: 50px !important;
     }
     .logo-contain {
-        padding-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 70px;
+        padding-top: 50px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        gap: 70px !important;
     }
     .logo-img img {
-        width: 50px;
-        height: 50px;
+        width: 50px !important;
+        height: 50px !important;
     }
     .section-8 {
         display: flex;
@@ -1193,6 +1189,10 @@ button[type="submit"]:hover {
     }
 }
 @media screen and (max-width: 768px) {
+    ul li {
+        text-align: center;
+        font-size: 10px;
+    }
     .section-1-name {
         line-height: 55px;
         padding: 8px 0;
@@ -1213,11 +1213,11 @@ button[type="submit"]:hover {
         width: 90%;
     }
     .section-3-img img {
-        width: 210px;
-        height: 210px;
+        width: 190px;
+        height: 190px;
     }
     .section-3-3 {
-        width: 700px;
+        width: 90%;
         column-gap: 5px;
     }
     .section-3-3-1 {
